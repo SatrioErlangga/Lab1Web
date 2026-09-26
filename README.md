@@ -22,6 +22,7 @@ Lab1Web/
 ├── README.md
 └── images/
     └── profil.jpg
+```
 ---
 
 ## 📸 Langkah-Langkah Praktikum & Screenshot Hasil
