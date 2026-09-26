@@ -1,5 +1,14 @@
 # Lab1Web
-Berisi tentang tugas pemrograman website Universitas Pelita Bangsa Semester 3 Praktikum 1
+#Praktikum 1: HTML Dasar
+Repository in dibuat untuk memenuhi tugas Praktikum 1 - HTML Dasar pada mata kuliah Pemrograman Web.
+
+Identitas Mahasiswa:
+Nama: Satrio Erlangga
+Nim: 312510006
+Kelas: I253A
+Program Studi: Teknik Informatika
+Dosen Pengampu: Agung Nugroho,S.com., M.Kom.
+Kampus:Universitas Pelita Bangsa
 ## Panduan Screenshot Tugas
 
 Simpan semua file tangkapan layar (screenshot) di dalam folder `screenshots/` dengan format nama angka (`1.png` sampai `8.png`) sesuai tabel berikut:
