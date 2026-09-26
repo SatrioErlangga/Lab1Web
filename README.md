@@ -119,51 +119,42 @@ Menggabungkan seluruh elemen dasar HTML yang telah dipelajari menjadi satu halam
 ]
 
 ---
+##  Jawaban Pertanyaan Modul
 
-awaban Pertanyaan Modul
-Fungsi Deklarasi <!DOCTYPE html>:
-Menyatakan standar tipe dokumen yang digunakan, yaitu standar HTML5 agar browser dapat merepresentasikannya dengan benar.
+1. **Apa fungsi deklarasi `<!DOCTYPE html>` pada dokumen HTML?**
+   - Deklarasi `<!DOCTYPE html>` berfungsi untuk memberi tahu *web browser* mengenai versi dan standar HTML yang digunakan pada dokumen (yaitu standar HTML5) agar browser dapat merepresentasikan tampilan halaman dengan benar.
 
-Perbedaan Tag, Elemen, dan Atribut:
+2. **Apa perbedaan antara tag, elemen, dan atribut pada HTML?**
+   - **Tag**: Penanda yang mengapit kode HTML, terdiri dari tag pembuka (contoh: `<p>`) dan tag penutup (contoh: `</p>`).
+   - **Elemen**: Komponen utuh HTML yang mencakup tag pembuka, isi/konten teks di dalamnya, hingga tag penutup.
+   - **Atribut**: Informasi atau pengaturan tambahan yang disisipkan di dalam tag pembuka (contoh: `href=""` atau `src=""`).
 
-Tag: Penanda awalan (<p>) dan akhiran (</p>) dari sebuah elemen.
+3. **Apa perbedaan `<p>` dengan `<br>`? Jelaskan penggunaannya.**
+   - Tag `<p>` (*paragraph*) digunakan untuk mengelompokkan blok teks menjadi satu paragraf yang memiliki spasi/jarak atas-bawah secara otomatis.
+   - Tag `<br>` (*break*) hanya digunakan untuk memindahkan baris teks ke bawah tanpa membuat spasi/paragraf baru.
 
-Elemen: Komponen utuh HTML yang terdiri dari tag pembuka, isi/konten teks, dan tag penutup.
+4. **Apa fungsi atribut `href` pada tag `<a>`?**
+   - Atribut `href` (*hypertext reference*) berfungsi untuk menentukan lokasi/alamat tujuan URL atau path file yang akan dibuka saat tautan/link diklik.
 
-Atribut: Informasi tambahan yang dimasukkan di dalam tag pembuka (contoh: src="" atau href="").
+5. **Apa perbedaan hyperlink ke halaman internal dengan hyperlink ke website eksternal?**
+   - **Internal Hyperlink**: Mengarahkan ke file HTML lain yang berada di dalam direktori/folder proyek lokal yang sama (contoh: `halaman2.html`).
+   - **Eksternal Hyperlink**: Mengarahkan ke alamat domain atau situs web di luar proyek (contoh: `https://www.google.com`).
 
-Perbedaan <p> dan <br>:
+6. **Apa fungsi atribut `src` dan `alt` pada tag `<img>`?**
+   - `src` (*source*): Menentukan lokasi atau path penyimpanan file gambar yang akan ditampilkan.
+   - `alt` (*alternate text*): Menyediakan deskripsi berupa teks pengganti jika gambar gagal dimuat oleh browser.
 
-Tag <p> digunakan untuk membuat paragraf baru yang memiliki jarak antar-blok otomatis.
+7. **Apa perbedaan penggunaan `<ul>` dan `<ol>`?**
+   - `<ul>` (*Unordered List*): Digunakan untuk membuat daftar item tanpa urutan khusus (ditampilkan menggunakan simbol *bullet*/titik).
+   - `<ol>` (*Ordered List*): Digunakan untuk membuat daftar item yang memiliki urutan khusus (ditampilkan menggunakan angka `1, 2, 3` atau huruf berurutan).
 
-Tag <br> hanya memindahkan baris teks ke bawah tanpa membuat spasi/paragraf baru.
+8. **Apa yang terjadi jika path gambar pada atribut `src` salah?**
+   - Gambar tidak akan muncul pada halaman browser. Sebagai gantinya, browser akan menampilkan ikon gambar rusak/pecah disertai teks deskripsi yang ada di dalam atribut `alt`.
 
-Fungsi Atribut href pada tag <a>:
-Menentukan alamat URL atau path file tujuan yang akan dibuka saat link diklik.
+9. **Mengapa struktur heading `h1` sampai `h6` perlu digunakan secara terstruktur?**
+   - Struktur heading sangat penting untuk membentuk hirarki konten yang jelas bagi pengguna serta membantu mesin pencari (*Search Engine*) memahami tingkatan informasi pada halaman secara logis.
 
-Perbedaan Hyperlink Internal vs Eksternal:
-
-Internal: Menghubungkan ke file HTML lain yang berada dalam direktori proyek lokal yang sama (contoh: halaman2.html).
-
-Eksternal: Menghubungkan ke situs web di luar proyek (contoh: https://www.google.com).
-
-Fungsi Atribut src dan alt pada tag <img>:
-
-src: Menentukan lokasi/path file gambar.
-
-alt: Menampilkan teks deskripsi alternatif jika gambar gagal dimuat.
-
-Perbedaan <ul> dan <ol>:
-
-<ul> (Unordered List): Daftar tanpa nomor (menggunakan simbol bullet/titik).
-
-<ol> (Ordered List): Daftar berurutan (menggunakan nomor/angka 1, 2, 3).
-
-Jika Path Gambar Salah:
-Gambar tidak muncul dan browser akan menampilkan ikon gambar rusak beserta teks dari atribut alt.
-
-Penggunaan Heading Terstruktur (h1 - h6):
-Sangat penting untuk membentuk hirarki konten yang jelas bagi pengguna dan membantu mesin pencari (Search Engine) memahami struktur halaman.
-
+10. **Apa fungsi komentar `<!-- ... -->` dalam kode HTML?**
+    - Komentar berfungsi untuk memberikan catatan, keterangan, atau penjelasan pada baris kode untuk pemrogram. Teks di dalam tag komentar akan diabaikan oleh browser dan tidak ditampilkan di layar.
 Fungsi Komentar <!-- ... -->:
 Memberikan catatan/penjelasan pada kode yang diabaikan oleh browser dan tidak ditampilkan di layar.
